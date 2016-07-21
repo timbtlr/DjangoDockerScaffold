@@ -10,5 +10,5 @@ module.exports = {
   root: path.normalize(path.join(__dirname, '../..')),
 
   // Server port
-  port: 9000
+  port: 80
 };
