@@ -16,4 +16,4 @@ RUN npm install -g bower
 RUN bower install --config.interactive=false --allow-root
 
 # The command to run our app when the container is run
-CMD node server/app.js
+CMD ["node", "server/app.js"]
